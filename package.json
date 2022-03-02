@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/FelipeBockMagagnin/Node-Clean-Architecture.git"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
